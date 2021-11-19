@@ -6,13 +6,171 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E104F46C274742B400BC6B7A /* BuildXCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E104F46D274742B400BC6B7A /* Build configuration list for PBXAggregateTarget "BuildXCFramework" */;
+			buildPhases = (
+				E104F470274742B800BC6B7A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = BuildXCFramework;
+			productName = BuildXCFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		1DE422591A422098335746BF /* Pods_LJFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C90C7308A578871437B2E0 /* Pods_LJFramework.framework */; };
+		A3807CE9AFE5C06CD53A8B0B /* Pods_LJFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6655E50C4A0F5C43EAD22BB4 /* Pods_LJFrameworkDemo.framework */; };
 		E104F3B2274736A900BC6B7A /* LJFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3B1274736A900BC6B7A /* LJFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F3C9274736CC00BC6B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E104F3C7274736CC00BC6B7A /* Main.storyboard */; };
+		E104F3CB274736CE00BC6B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E104F3CA274736CE00BC6B7A /* Assets.xcassets */; };
+		E104F3CE274736CE00BC6B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E104F3CC274736CE00BC6B7A /* LaunchScreen.storyboard */; };
+		E104F3D1274736CE00BC6B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3D0274736CE00BC6B7A /* main.m */; };
+		E104F3DE2747373F00BC6B7A /* LJMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3D52747373E00BC6B7A /* LJMediaManager.m */; };
+		E104F3DF2747373F00BC6B7A /* LJUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3D62747373E00BC6B7A /* LJUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F3E02747373F00BC6B7A /* LJRouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3D72747373E00BC6B7A /* LJRouterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F3E12747373F00BC6B7A /* LJUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3D82747373E00BC6B7A /* LJUtils.m */; };
+		E104F3E22747373F00BC6B7A /* LJDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3D92747373E00BC6B7A /* LJDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F3E32747373F00BC6B7A /* LJNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3DA2747373E00BC6B7A /* LJNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F3E42747373F00BC6B7A /* LJRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3DB2747373E00BC6B7A /* LJRouterManager.m */; };
+		E104F3E52747373F00BC6B7A /* LJNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3DC2747373F00BC6B7A /* LJNetwork.m */; };
+		E104F3E62747373F00BC6B7A /* LJMediaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3DD2747373F00BC6B7A /* LJMediaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4192747374800BC6B7A /* NSString+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3E82747374700BC6B7A /* NSString+LJCategory.m */; };
+		E104F41A2747374800BC6B7A /* UITableView+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3E92747374700BC6B7A /* UITableView+LJCategory.m */; };
+		E104F41B2747374800BC6B7A /* UIImage+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3EA2747374700BC6B7A /* UIImage+LJCategory.m */; };
+		E104F41C2747374800BC6B7A /* UICollectionView+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3EB2747374700BC6B7A /* UICollectionView+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F41D2747374800BC6B7A /* UITextView+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3EC2747374700BC6B7A /* UITextView+LJCategory.m */; };
+		E104F41E2747374800BC6B7A /* UIButton+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3ED2747374700BC6B7A /* UIButton+LJCategory.m */; };
+		E104F41F2747374800BC6B7A /* NSObject+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3EE2747374700BC6B7A /* NSObject+LJCategory.m */; };
+		E104F4202747374800BC6B7A /* UIView+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3EF2747374700BC6B7A /* UIView+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4212747374800BC6B7A /* UIViewController+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3F02747374700BC6B7A /* UIViewController+LJCategory.m */; };
+		E104F4222747374800BC6B7A /* UITextView+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3F12747374700BC6B7A /* UITextView+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4232747374800BC6B7A /* UIImage+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3F22747374700BC6B7A /* UIImage+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4242747374800BC6B7A /* UICollectionView+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3F32747374700BC6B7A /* UICollectionView+LJCategory.m */; };
+		E104F4252747374800BC6B7A /* UITableView+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3F42747374700BC6B7A /* UITableView+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4262747374800BC6B7A /* NSString+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3F52747374700BC6B7A /* NSString+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4282747374800BC6B7A /* UIView+LJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3F72747374700BC6B7A /* UIView+LJCategory.m */; };
+		E104F4292747374800BC6B7A /* NSObject+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3F82747374700BC6B7A /* NSObject+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F42A2747374800BC6B7A /* UIButton+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3F92747374700BC6B7A /* UIButton+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F42B2747374800BC6B7A /* UIViewController+LJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3FA2747374700BC6B7A /* UIViewController+LJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F42C2747374800BC6B7A /* LJXIBFromCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3FC2747374800BC6B7A /* LJXIBFromCenterViewController.m */; };
+		E104F42D2747374800BC6B7A /* LJBaseFromSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F3FD2747374800BC6B7A /* LJBaseFromSheetViewController.m */; };
+		E104F42E2747374800BC6B7A /* LJXIBFromSheetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3FE2747374800BC6B7A /* LJXIBFromSheetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F42F2747374800BC6B7A /* LJWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F3FF2747374800BC6B7A /* LJWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4302747374800BC6B7A /* LJBaseTranslucenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4002747374800BC6B7A /* LJBaseTranslucenceViewController.m */; };
+		E104F4312747374800BC6B7A /* LJBaseFromSheetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4012747374800BC6B7A /* LJBaseFromSheetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4322747374800BC6B7A /* LJXIBFromCenterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4022747374800BC6B7A /* LJXIBFromCenterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4332747374800BC6B7A /* LJXIBFromSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4032747374800BC6B7A /* LJXIBFromSheetViewController.m */; };
+		E104F4342747374800BC6B7A /* LJBaseTranslucenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4042747374800BC6B7A /* LJBaseTranslucenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4352747374800BC6B7A /* LJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4052747374800BC6B7A /* LJWebViewController.m */; };
+		E104F4362747374800BC6B7A /* LJStarBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4072747374800BC6B7A /* LJStarBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4372747374800BC6B7A /* LJViewPropertyInXib.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4082747374800BC6B7A /* LJViewPropertyInXib.m */; };
+		E104F4382747374800BC6B7A /* LJSendCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4092747374800BC6B7A /* LJSendCodeButton.m */; };
+		E104F4392747374800BC6B7A /* LJBaseXibView.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F40A2747374800BC6B7A /* LJBaseXibView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F43A2747374800BC6B7A /* LJMenuBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F40B2747374800BC6B7A /* LJMenuBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F43B2747374800BC6B7A /* LJBottomBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F40C2747374800BC6B7A /* LJBottomBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F43C2747374800BC6B7A /* LJOptionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F40D2747374800BC6B7A /* LJOptionTableView.m */; };
+		E104F43D2747374800BC6B7A /* LJAutoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F40E2747374800BC6B7A /* LJAutoTextView.m */; };
+		E104F43E2747374800BC6B7A /* LJGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F40F2747374800BC6B7A /* LJGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F43F2747374800BC6B7A /* LJSendCodeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4102747374800BC6B7A /* LJSendCodeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4402747374800BC6B7A /* LJViewPropertyInXib.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4112747374800BC6B7A /* LJViewPropertyInXib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4412747374800BC6B7A /* LJStarBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4122747374800BC6B7A /* LJStarBar.m */; };
+		E104F4422747374800BC6B7A /* LJBaseXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4132747374800BC6B7A /* LJBaseXibView.m */; };
+		E104F4432747374800BC6B7A /* LJBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4142747374800BC6B7A /* LJBottomBar.m */; };
+		E104F4442747374800BC6B7A /* LJMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4152747374800BC6B7A /* LJMenuBar.m */; };
+		E104F4452747374800BC6B7A /* LJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4162747374800BC6B7A /* LJGradientView.m */; };
+		E104F4462747374800BC6B7A /* LJAutoTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4172747374800BC6B7A /* LJAutoTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F4472747374800BC6B7A /* LJOptionTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4182747374800BC6B7A /* LJOptionTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F44F2747385300BC6B7A /* OptionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4482747385200BC6B7A /* OptionTableViewController.m */; };
+		E104F4502747385300BC6B7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4492747385300BC6B7A /* ViewController.m */; };
+		E104F4512747385300BC6B7A /* OptionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E104F44B2747385300BC6B7A /* OptionTableViewController.xib */; };
+		E104F4522747385300BC6B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F44E2747385300BC6B7A /* AppDelegate.m */; };
+		E104F46A2747418000BC6B7A /* LJCategorys.h in Headers */ = {isa = PBXBuildFile; fileRef = E104F4682747418000BC6B7A /* LJCategorys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E104F46B2747418000BC6B7A /* LJCategorys.m in Sources */ = {isa = PBXBuildFile; fileRef = E104F4692747418000BC6B7A /* LJCategorys.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1605A7408FA430A38FD73FEC /* Pods-LJFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJFramework.release.xcconfig"; path = "Target Support Files/Pods-LJFramework/Pods-LJFramework.release.xcconfig"; sourceTree = "<group>"; };
+		18C90C7308A578871437B2E0 /* Pods_LJFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6655E50C4A0F5C43EAD22BB4 /* Pods_LJFrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJFrameworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC631C1304FD7CBB1FB89274 /* Pods-LJFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJFramework.debug.xcconfig"; path = "Target Support Files/Pods-LJFramework/Pods-LJFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		BB6FB1462CADF206CB1D5B9C /* Pods-LJFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJFrameworkDemo.debug.xcconfig"; path = "Target Support Files/Pods-LJFrameworkDemo/Pods-LJFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C01B1E31A776B48A6CDCE650 /* Pods-LJFrameworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJFrameworkDemo.release.xcconfig"; path = "Target Support Files/Pods-LJFrameworkDemo/Pods-LJFrameworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E104F3AE274736A900BC6B7A /* LJFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LJFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E104F3B1274736A900BC6B7A /* LJFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJFramework.h; sourceTree = "<group>"; };
+		E104F3BC274736CC00BC6B7A /* LJFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E104F3C8274736CC00BC6B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E104F3CA274736CE00BC6B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E104F3CD274736CE00BC6B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E104F3CF274736CE00BC6B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E104F3D0274736CE00BC6B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E104F3D52747373E00BC6B7A /* LJMediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMediaManager.m; sourceTree = "<group>"; };
+		E104F3D62747373E00BC6B7A /* LJUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJUtils.h; sourceTree = "<group>"; };
+		E104F3D72747373E00BC6B7A /* LJRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRouterManager.h; sourceTree = "<group>"; };
+		E104F3D82747373E00BC6B7A /* LJUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJUtils.m; sourceTree = "<group>"; };
+		E104F3D92747373E00BC6B7A /* LJDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDefine.h; sourceTree = "<group>"; };
+		E104F3DA2747373E00BC6B7A /* LJNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNetwork.h; sourceTree = "<group>"; };
+		E104F3DB2747373E00BC6B7A /* LJRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRouterManager.m; sourceTree = "<group>"; };
+		E104F3DC2747373F00BC6B7A /* LJNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNetwork.m; sourceTree = "<group>"; };
+		E104F3DD2747373F00BC6B7A /* LJMediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMediaManager.h; sourceTree = "<group>"; };
+		E104F3E82747374700BC6B7A /* NSString+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3E92747374700BC6B7A /* UITableView+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3EA2747374700BC6B7A /* UIImage+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3EB2747374700BC6B7A /* UICollectionView+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3EC2747374700BC6B7A /* UITextView+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3ED2747374700BC6B7A /* UIButton+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3EE2747374700BC6B7A /* NSObject+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3EF2747374700BC6B7A /* UIView+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3F02747374700BC6B7A /* UIViewController+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3F12747374700BC6B7A /* UITextView+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3F22747374700BC6B7A /* UIImage+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3F32747374700BC6B7A /* UICollectionView+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3F42747374700BC6B7A /* UITableView+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3F52747374700BC6B7A /* NSString+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3F72747374700BC6B7A /* UIView+LJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJCategory.m"; sourceTree = "<group>"; };
+		E104F3F82747374700BC6B7A /* NSObject+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3F92747374700BC6B7A /* UIButton+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3FA2747374700BC6B7A /* UIViewController+LJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LJCategory.h"; sourceTree = "<group>"; };
+		E104F3FC2747374800BC6B7A /* LJXIBFromCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJXIBFromCenterViewController.m; sourceTree = "<group>"; };
+		E104F3FD2747374800BC6B7A /* LJBaseFromSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseFromSheetViewController.m; sourceTree = "<group>"; };
+		E104F3FE2747374800BC6B7A /* LJXIBFromSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJXIBFromSheetViewController.h; sourceTree = "<group>"; };
+		E104F3FF2747374800BC6B7A /* LJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWebViewController.h; sourceTree = "<group>"; };
+		E104F4002747374800BC6B7A /* LJBaseTranslucenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseTranslucenceViewController.m; sourceTree = "<group>"; };
+		E104F4012747374800BC6B7A /* LJBaseFromSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseFromSheetViewController.h; sourceTree = "<group>"; };
+		E104F4022747374800BC6B7A /* LJXIBFromCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJXIBFromCenterViewController.h; sourceTree = "<group>"; };
+		E104F4032747374800BC6B7A /* LJXIBFromSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJXIBFromSheetViewController.m; sourceTree = "<group>"; };
+		E104F4042747374800BC6B7A /* LJBaseTranslucenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseTranslucenceViewController.h; sourceTree = "<group>"; };
+		E104F4052747374800BC6B7A /* LJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWebViewController.m; sourceTree = "<group>"; };
+		E104F4072747374800BC6B7A /* LJStarBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJStarBar.h; sourceTree = "<group>"; };
+		E104F4082747374800BC6B7A /* LJViewPropertyInXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJViewPropertyInXib.m; sourceTree = "<group>"; };
+		E104F4092747374800BC6B7A /* LJSendCodeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSendCodeButton.m; sourceTree = "<group>"; };
+		E104F40A2747374800BC6B7A /* LJBaseXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseXibView.h; sourceTree = "<group>"; };
+		E104F40B2747374800BC6B7A /* LJMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMenuBar.h; sourceTree = "<group>"; };
+		E104F40C2747374800BC6B7A /* LJBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBottomBar.h; sourceTree = "<group>"; };
+		E104F40D2747374800BC6B7A /* LJOptionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJOptionTableView.m; sourceTree = "<group>"; };
+		E104F40E2747374800BC6B7A /* LJAutoTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJAutoTextView.m; sourceTree = "<group>"; };
+		E104F40F2747374800BC6B7A /* LJGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGradientView.h; sourceTree = "<group>"; };
+		E104F4102747374800BC6B7A /* LJSendCodeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSendCodeButton.h; sourceTree = "<group>"; };
+		E104F4112747374800BC6B7A /* LJViewPropertyInXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJViewPropertyInXib.h; sourceTree = "<group>"; };
+		E104F4122747374800BC6B7A /* LJStarBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJStarBar.m; sourceTree = "<group>"; };
+		E104F4132747374800BC6B7A /* LJBaseXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseXibView.m; sourceTree = "<group>"; };
+		E104F4142747374800BC6B7A /* LJBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBottomBar.m; sourceTree = "<group>"; };
+		E104F4152747374800BC6B7A /* LJMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMenuBar.m; sourceTree = "<group>"; };
+		E104F4162747374800BC6B7A /* LJGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGradientView.m; sourceTree = "<group>"; };
+		E104F4172747374800BC6B7A /* LJAutoTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJAutoTextView.h; sourceTree = "<group>"; };
+		E104F4182747374800BC6B7A /* LJOptionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJOptionTableView.h; sourceTree = "<group>"; };
+		E104F4482747385200BC6B7A /* OptionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTableViewController.m; sourceTree = "<group>"; };
+		E104F4492747385300BC6B7A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E104F44A2747385300BC6B7A /* OptionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTableViewController.h; sourceTree = "<group>"; };
+		E104F44B2747385300BC6B7A /* OptionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionTableViewController.xib; sourceTree = "<group>"; };
+		E104F44C2747385300BC6B7A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E104F44D2747385300BC6B7A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E104F44E2747385300BC6B7A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E104F467274740D900BC6B7A /* LJFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LJFramework.podspec; sourceTree = "<group>"; };
+		E104F4682747418000BC6B7A /* LJCategorys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCategorys.h; sourceTree = "<group>"; };
+		E104F4692747418000BC6B7A /* LJCategorys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCategorys.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,17 +178,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE422591A422098335746BF /* Pods_LJFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E104F3B9274736CC00BC6B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3807CE9AFE5C06CD53A8B0B /* Pods_LJFrameworkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42813C612C33DC4B76AE14F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC631C1304FD7CBB1FB89274 /* Pods-LJFramework.debug.xcconfig */,
+				1605A7408FA430A38FD73FEC /* Pods-LJFramework.release.xcconfig */,
+				BB6FB1462CADF206CB1D5B9C /* Pods-LJFrameworkDemo.debug.xcconfig */,
+				C01B1E31A776B48A6CDCE650 /* Pods-LJFrameworkDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD9FDD57804F4F86482D2840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C90C7308A578871437B2E0 /* Pods_LJFramework.framework */,
+				6655E50C4A0F5C43EAD22BB4 /* Pods_LJFrameworkDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E104F3A4274736A900BC6B7A = {
 			isa = PBXGroup;
 			children = (
+				E104F467274740D900BC6B7A /* LJFramework.podspec */,
 				E104F3B0274736A900BC6B7A /* LJFramework */,
+				E104F3BD274736CC00BC6B7A /* LJFrameworkDemo */,
 				E104F3AF274736A900BC6B7A /* Products */,
+				42813C612C33DC4B76AE14F9 /* Pods */,
+				BD9FDD57804F4F86482D2840 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -38,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				E104F3AE274736A900BC6B7A /* LJFramework.framework */,
+				E104F3BC274736CC00BC6B7A /* LJFrameworkDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,8 +238,108 @@
 			isa = PBXGroup;
 			children = (
 				E104F3B1274736A900BC6B7A /* LJFramework.h */,
+				E104F3D92747373E00BC6B7A /* LJDefine.h */,
+				E104F3DD2747373F00BC6B7A /* LJMediaManager.h */,
+				E104F3D52747373E00BC6B7A /* LJMediaManager.m */,
+				E104F3DA2747373E00BC6B7A /* LJNetwork.h */,
+				E104F3DC2747373F00BC6B7A /* LJNetwork.m */,
+				E104F3D72747373E00BC6B7A /* LJRouterManager.h */,
+				E104F3DB2747373E00BC6B7A /* LJRouterManager.m */,
+				E104F3D62747373E00BC6B7A /* LJUtils.h */,
+				E104F3D82747373E00BC6B7A /* LJUtils.m */,
+				E104F3E72747374700BC6B7A /* Category */,
+				E104F4062747374800BC6B7A /* View */,
+				E104F3FB2747374800BC6B7A /* ViewController */,
 			);
 			path = LJFramework;
+			sourceTree = "<group>";
+		};
+		E104F3BD274736CC00BC6B7A /* LJFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E104F44C2747385300BC6B7A /* AppDelegate.h */,
+				E104F44E2747385300BC6B7A /* AppDelegate.m */,
+				E104F44D2747385300BC6B7A /* ViewController.h */,
+				E104F4492747385300BC6B7A /* ViewController.m */,
+				E104F44A2747385300BC6B7A /* OptionTableViewController.h */,
+				E104F4482747385200BC6B7A /* OptionTableViewController.m */,
+				E104F44B2747385300BC6B7A /* OptionTableViewController.xib */,
+				E104F3C7274736CC00BC6B7A /* Main.storyboard */,
+				E104F3CA274736CE00BC6B7A /* Assets.xcassets */,
+				E104F3CC274736CE00BC6B7A /* LaunchScreen.storyboard */,
+				E104F3CF274736CE00BC6B7A /* Info.plist */,
+				E104F3D0274736CE00BC6B7A /* main.m */,
+			);
+			path = LJFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		E104F3E72747374700BC6B7A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E104F4682747418000BC6B7A /* LJCategorys.h */,
+				E104F4692747418000BC6B7A /* LJCategorys.m */,
+				E104F3F82747374700BC6B7A /* NSObject+LJCategory.h */,
+				E104F3EE2747374700BC6B7A /* NSObject+LJCategory.m */,
+				E104F3F52747374700BC6B7A /* NSString+LJCategory.h */,
+				E104F3E82747374700BC6B7A /* NSString+LJCategory.m */,
+				E104F3EF2747374700BC6B7A /* UIView+LJCategory.h */,
+				E104F3F72747374700BC6B7A /* UIView+LJCategory.m */,
+				E104F3F22747374700BC6B7A /* UIImage+LJCategory.h */,
+				E104F3EA2747374700BC6B7A /* UIImage+LJCategory.m */,
+				E104F3F92747374700BC6B7A /* UIButton+LJCategory.h */,
+				E104F3ED2747374700BC6B7A /* UIButton+LJCategory.m */,
+				E104F3F42747374700BC6B7A /* UITableView+LJCategory.h */,
+				E104F3E92747374700BC6B7A /* UITableView+LJCategory.m */,
+				E104F3EB2747374700BC6B7A /* UICollectionView+LJCategory.h */,
+				E104F3F32747374700BC6B7A /* UICollectionView+LJCategory.m */,
+				E104F3F12747374700BC6B7A /* UITextView+LJCategory.h */,
+				E104F3EC2747374700BC6B7A /* UITextView+LJCategory.m */,
+				E104F3FA2747374700BC6B7A /* UIViewController+LJCategory.h */,
+				E104F3F02747374700BC6B7A /* UIViewController+LJCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E104F3FB2747374800BC6B7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E104F4042747374800BC6B7A /* LJBaseTranslucenceViewController.h */,
+				E104F4002747374800BC6B7A /* LJBaseTranslucenceViewController.m */,
+				E104F3FE2747374800BC6B7A /* LJXIBFromSheetViewController.h */,
+				E104F4032747374800BC6B7A /* LJXIBFromSheetViewController.m */,
+				E104F4012747374800BC6B7A /* LJBaseFromSheetViewController.h */,
+				E104F3FD2747374800BC6B7A /* LJBaseFromSheetViewController.m */,
+				E104F3FC2747374800BC6B7A /* LJXIBFromCenterViewController.m */,
+				E104F4022747374800BC6B7A /* LJXIBFromCenterViewController.h */,
+				E104F3FF2747374800BC6B7A /* LJWebViewController.h */,
+				E104F4052747374800BC6B7A /* LJWebViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E104F4062747374800BC6B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E104F4072747374800BC6B7A /* LJStarBar.h */,
+				E104F4122747374800BC6B7A /* LJStarBar.m */,
+				E104F40C2747374800BC6B7A /* LJBottomBar.h */,
+				E104F4142747374800BC6B7A /* LJBottomBar.m */,
+				E104F40B2747374800BC6B7A /* LJMenuBar.h */,
+				E104F4152747374800BC6B7A /* LJMenuBar.m */,
+				E104F4102747374800BC6B7A /* LJSendCodeButton.h */,
+				E104F4092747374800BC6B7A /* LJSendCodeButton.m */,
+				E104F40A2747374800BC6B7A /* LJBaseXibView.h */,
+				E104F4132747374800BC6B7A /* LJBaseXibView.m */,
+				E104F40F2747374800BC6B7A /* LJGradientView.h */,
+				E104F4162747374800BC6B7A /* LJGradientView.m */,
+				E104F4112747374800BC6B7A /* LJViewPropertyInXib.h */,
+				E104F4082747374800BC6B7A /* LJViewPropertyInXib.m */,
+				E104F4172747374800BC6B7A /* LJAutoTextView.h */,
+				E104F40E2747374800BC6B7A /* LJAutoTextView.m */,
+				E104F4182747374800BC6B7A /* LJOptionTableView.h */,
+				E104F40D2747374800BC6B7A /* LJOptionTableView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -57,7 +349,36 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E104F3E02747373F00BC6B7A /* LJRouterManager.h in Headers */,
+				E104F4202747374800BC6B7A /* UIView+LJCategory.h in Headers */,
+				E104F4362747374800BC6B7A /* LJStarBar.h in Headers */,
+				E104F4472747374800BC6B7A /* LJOptionTableView.h in Headers */,
+				E104F43E2747374800BC6B7A /* LJGradientView.h in Headers */,
+				E104F4292747374800BC6B7A /* NSObject+LJCategory.h in Headers */,
+				E104F41C2747374800BC6B7A /* UICollectionView+LJCategory.h in Headers */,
+				E104F42F2747374800BC6B7A /* LJWebViewController.h in Headers */,
+				E104F42A2747374800BC6B7A /* UIButton+LJCategory.h in Headers */,
+				E104F42E2747374800BC6B7A /* LJXIBFromSheetViewController.h in Headers */,
+				E104F3E22747373F00BC6B7A /* LJDefine.h in Headers */,
+				E104F43A2747374800BC6B7A /* LJMenuBar.h in Headers */,
+				E104F4402747374800BC6B7A /* LJViewPropertyInXib.h in Headers */,
+				E104F3E32747373F00BC6B7A /* LJNetwork.h in Headers */,
+				E104F3E62747373F00BC6B7A /* LJMediaManager.h in Headers */,
+				E104F4262747374800BC6B7A /* NSString+LJCategory.h in Headers */,
+				E104F4252747374800BC6B7A /* UITableView+LJCategory.h in Headers */,
+				E104F4462747374800BC6B7A /* LJAutoTextView.h in Headers */,
+				E104F4232747374800BC6B7A /* UIImage+LJCategory.h in Headers */,
+				E104F4322747374800BC6B7A /* LJXIBFromCenterViewController.h in Headers */,
+				E104F46A2747418000BC6B7A /* LJCategorys.h in Headers */,
+				E104F3DF2747373F00BC6B7A /* LJUtils.h in Headers */,
+				E104F4312747374800BC6B7A /* LJBaseFromSheetViewController.h in Headers */,
+				E104F43F2747374800BC6B7A /* LJSendCodeButton.h in Headers */,
+				E104F4222747374800BC6B7A /* UITextView+LJCategory.h in Headers */,
 				E104F3B2274736A900BC6B7A /* LJFramework.h in Headers */,
+				E104F42B2747374800BC6B7A /* UIViewController+LJCategory.h in Headers */,
+				E104F4342747374800BC6B7A /* LJBaseTranslucenceViewController.h in Headers */,
+				E104F4392747374800BC6B7A /* LJBaseXibView.h in Headers */,
+				E104F43B2747374800BC6B7A /* LJBottomBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +389,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E104F3B5274736A900BC6B7A /* Build configuration list for PBXNativeTarget "LJFramework" */;
 			buildPhases = (
+				042A10291B66B458A20A0222 /* [CP] Check Pods Manifest.lock */,
 				E104F3A9274736A900BC6B7A /* Headers */,
 				E104F3AA274736A900BC6B7A /* Sources */,
 				E104F3AB274736A900BC6B7A /* Frameworks */,
@@ -82,6 +404,25 @@
 			productReference = E104F3AE274736A900BC6B7A /* LJFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E104F3BB274736CC00BC6B7A /* LJFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E104F3D2274736CE00BC6B7A /* Build configuration list for PBXNativeTarget "LJFrameworkDemo" */;
+			buildPhases = (
+				48FDF44DAF45E891BE08CE0C /* [CP] Check Pods Manifest.lock */,
+				E104F3B8274736CC00BC6B7A /* Sources */,
+				E104F3B9274736CC00BC6B7A /* Frameworks */,
+				E104F3BA274736CC00BC6B7A /* Resources */,
+				09C9A915BC38D22D19669569 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJFrameworkDemo;
+			productName = LJFrameworkDemo;
+			productReference = E104F3BC274736CC00BC6B7A /* LJFrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +433,12 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					E104F3AD274736A900BC6B7A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E104F3BB274736CC00BC6B7A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E104F46C274742B400BC6B7A = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -110,6 +457,8 @@
 			projectRoot = "";
 			targets = (
 				E104F3AD274736A900BC6B7A /* LJFramework */,
+				E104F3BB274736CC00BC6B7A /* LJFrameworkDemo */,
+				E104F46C274742B400BC6B7A /* BuildXCFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -122,17 +471,167 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E104F3BA274736CC00BC6B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E104F3CE274736CE00BC6B7A /* LaunchScreen.storyboard in Resources */,
+				E104F3CB274736CE00BC6B7A /* Assets.xcassets in Resources */,
+				E104F4512747385300BC6B7A /* OptionTableViewController.xib in Resources */,
+				E104F3C9274736CC00BC6B7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042A10291B66B458A20A0222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09C9A915BC38D22D19669569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJFrameworkDemo/Pods-LJFrameworkDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJFrameworkDemo/Pods-LJFrameworkDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LJFrameworkDemo/Pods-LJFrameworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48FDF44DAF45E891BE08CE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJFrameworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E104F470274742B800BC6B7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "OUTPUT_DIR_PATH=\"${PROJECT_DIR}/XCFramework\"\n\nfunction archivePathSimulator {\n  local DIR=${OUTPUT_DIR_PATH}/archives/\"${1}-SIMULATOR\"\n  echo \"${DIR}\"\n}\n\nfunction archivePathDevice {\n  local DIR=${OUTPUT_DIR_PATH}/archives/\"${1}-DEVICE\"\n  echo \"${DIR}\"\n}\n\n# Archive takes 3 params\n#\n# 1st == SCHEME\n# 2nd == destination\n# 3rd == archivePath\nfunction archive {\n    echo \"▸ Starts archiving the scheme: ${1} for destination: ${2};\\n▸ Archive path: ${3}.xcarchive\"\n    xcodebuild clean archive \\\n    -workspace \"${PROJECT_NAME}.xcworkspace\" \\\n    -scheme ${1} \\\n    -configuration ${CONFIGURATION} \\\n    -destination \"${2}\" \\\n    -archivePath \"${3}\" \\\n    SKIP_INSTALL=NO \\\n    OBJROOT=\"${OBJROOT}/DependentBuilds\" \\\n    BUILD_LIBRARY_FOR_DISTRIBUTION=YES | xcpretty\n}\n\n# Builds archive for iOS simulator & device\nfunction buildArchive {\n  SCHEME=${1}\n\n  archive $SCHEME \"generic/platform=iOS Simulator\" $(archivePathSimulator $SCHEME)\n  archive $SCHEME \"generic/platform=iOS\" $(archivePathDevice $SCHEME)\n}\n\n# Creates xc framework\nfunction createXCFramework {\n  FRAMEWORK_ARCHIVE_PATH_POSTFIX=\".xcarchive/Products/Library/Frameworks\"\n  FRAMEWORK_SIMULATOR_DIR=\"$(archivePathSimulator $1)${FRAMEWORK_ARCHIVE_PATH_POSTFIX}\"\n  FRAMEWORK_DEVICE_DIR=\"$(archivePathDevice $1)${FRAMEWORK_ARCHIVE_PATH_POSTFIX}\"\n\n  xcodebuild -create-xcframework \\\n            -framework ${FRAMEWORK_SIMULATOR_DIR}/${1}.framework \\\n            -framework ${FRAMEWORK_DEVICE_DIR}/${1}.framework \\\n            -output ${OUTPUT_DIR_PATH}/xcframeworks/${1}.xcframework\n}\n\n### Static Libraries cant be turned into frameworks\nfunction createXCFrameworkForStaticLibrary {\n\n  LIBRARY_ARCHIVE_PATH_POSTFIX=\".xcarchive/Products/usr/local/lib\"\n  LIBRARY_SIMULATOR_DIR=\"$(archivePathSimulator $1)${LIBRARY_ARCHIVE_PATH_POSTFIX}\"\n  LIBRARY_DEVICE_DIR=\"$(archivePathDevice $1)${LIBRARY_ARCHIVE_PATH_POSTFIX}\"\n\n  xcodebuild -create-xcframework \\\n            -library ${LIBRARY_SIMULATOR_DIR}/libStaticLibrary.a \\\n            -library ${LIBRARY_DEVICE_DIR}/libStaticLibrary.a \\\n            -output ${OUTPUT_DIR_PATH}/xcframeworks/${1}.xcframework\n}\n\necho \"#####################\"\necho \"▸ Cleaning the dir: ${OUTPUT_DIR_PATH}\"\nrm -rf $OUTPUT_DIR_PATH\n\n#### Static Library ####\n#LIBRARY=\"${PROJECT_NAME}\"\n\n#echo \"▸ Archive $LIBRARY\"\n#buildArchive ${LIBRARY}\n\n#echo \"▸ Create $FRAMEWORK.xcframework\"\n#createXCFrameworkForStaticLibrary ${LIBRARY}\n\n#### Dynamic Framework ####\n\nDYNAMIC_FRAMEWORK=\"${PROJECT_NAME}\"\n\necho \"▸ Archive $DYNAMIC_FRAMEWORK\"\nbuildArchive ${DYNAMIC_FRAMEWORK}\n\necho \"▸ Create $DYNAMIC_FRAMEWORK.xcframework\"\ncreateXCFramework ${DYNAMIC_FRAMEWORK}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E104F3AA274736A900BC6B7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E104F4442747374800BC6B7A /* LJMenuBar.m in Sources */,
+				E104F4452747374800BC6B7A /* LJGradientView.m in Sources */,
+				E104F4282747374800BC6B7A /* UIView+LJCategory.m in Sources */,
+				E104F4422747374800BC6B7A /* LJBaseXibView.m in Sources */,
+				E104F3E42747373F00BC6B7A /* LJRouterManager.m in Sources */,
+				E104F3DE2747373F00BC6B7A /* LJMediaManager.m in Sources */,
+				E104F3E52747373F00BC6B7A /* LJNetwork.m in Sources */,
+				E104F4302747374800BC6B7A /* LJBaseTranslucenceViewController.m in Sources */,
+				E104F41F2747374800BC6B7A /* NSObject+LJCategory.m in Sources */,
+				E104F4372747374800BC6B7A /* LJViewPropertyInXib.m in Sources */,
+				E104F41A2747374800BC6B7A /* UITableView+LJCategory.m in Sources */,
+				E104F46B2747418000BC6B7A /* LJCategorys.m in Sources */,
+				E104F4332747374800BC6B7A /* LJXIBFromSheetViewController.m in Sources */,
+				E104F41E2747374800BC6B7A /* UIButton+LJCategory.m in Sources */,
+				E104F42D2747374800BC6B7A /* LJBaseFromSheetViewController.m in Sources */,
+				E104F42C2747374800BC6B7A /* LJXIBFromCenterViewController.m in Sources */,
+				E104F43D2747374800BC6B7A /* LJAutoTextView.m in Sources */,
+				E104F4432747374800BC6B7A /* LJBottomBar.m in Sources */,
+				E104F41B2747374800BC6B7A /* UIImage+LJCategory.m in Sources */,
+				E104F3E12747373F00BC6B7A /* LJUtils.m in Sources */,
+				E104F4352747374800BC6B7A /* LJWebViewController.m in Sources */,
+				E104F4242747374800BC6B7A /* UICollectionView+LJCategory.m in Sources */,
+				E104F4382747374800BC6B7A /* LJSendCodeButton.m in Sources */,
+				E104F4212747374800BC6B7A /* UIViewController+LJCategory.m in Sources */,
+				E104F4412747374800BC6B7A /* LJStarBar.m in Sources */,
+				E104F43C2747374800BC6B7A /* LJOptionTableView.m in Sources */,
+				E104F4192747374800BC6B7A /* NSString+LJCategory.m in Sources */,
+				E104F41D2747374800BC6B7A /* UITextView+LJCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E104F3B8274736CC00BC6B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E104F4522747385300BC6B7A /* AppDelegate.m in Sources */,
+				E104F4502747385300BC6B7A /* ViewController.m in Sources */,
+				E104F44F2747385300BC6B7A /* OptionTableViewController.m in Sources */,
+				E104F3D1274736CE00BC6B7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E104F3C7274736CC00BC6B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E104F3C8274736CC00BC6B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E104F3CC274736CE00BC6B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E104F3CD274736CE00BC6B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E104F3B3274736A900BC6B7A /* Debug */ = {
@@ -255,6 +754,7 @@
 		};
 		E104F3B6274736A900BC6B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC631C1304FD7CBB1FB89274 /* Pods-LJFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -265,6 +765,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,6 +782,7 @@
 		};
 		E104F3B7274736A900BC6B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1605A7408FA430A38FD73FEC /* Pods-LJFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -291,6 +793,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +805,78 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E104F3D3274736CE00BC6B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6FB1462CADF206CB1D5B9C /* Pods-LJFrameworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LJFrameworkDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJay.LJFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E104F3D4274736CE00BC6B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01B1E31A776B48A6CDCE650 /* Pods-LJFrameworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LJFrameworkDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LJay.LJFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E104F46E274742B400BC6B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E104F46F274742B400BC6B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -322,6 +897,24 @@
 			buildConfigurations = (
 				E104F3B6274736A900BC6B7A /* Debug */,
 				E104F3B7274736A900BC6B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E104F3D2274736CE00BC6B7A /* Build configuration list for PBXNativeTarget "LJFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E104F3D3274736CE00BC6B7A /* Debug */,
+				E104F3D4274736CE00BC6B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E104F46D274742B400BC6B7A /* Build configuration list for PBXAggregateTarget "BuildXCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E104F46E274742B400BC6B7A /* Debug */,
+				E104F46F274742B400BC6B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

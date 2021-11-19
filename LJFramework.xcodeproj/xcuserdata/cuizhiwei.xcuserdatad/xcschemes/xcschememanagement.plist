@@ -4,10 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LJFramework.xcscheme_^#shared#^_</key>
+		<key>BuildXCFramework.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>9</integer>
+		</dict>
+		<key>LJFramework.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LJFrameworkDemo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 	</dict>
 </dict>

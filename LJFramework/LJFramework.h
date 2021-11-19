@@ -15,4 +15,8 @@ FOUNDATION_EXPORT const unsigned char LJFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LJFramework/PublicHeader.h>
 
-
+#import <LJFramework/LJDefine.h>
+#import <LJFramework/LJCategorys.h>
+#import <LJFramework/LJUtils.h>
+#import <LJFramework/LJNetwork.h>
+#import <LJFramework/LJRouterManager.h>
