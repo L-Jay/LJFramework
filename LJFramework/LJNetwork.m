@@ -280,9 +280,9 @@ constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         config.timeoutIntervalForRequest = self.timeoutInterval;
         config.timeoutIntervalForResource = self.timeoutInterval;
         _manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:config];
-        _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/plain", nil];
         _manager.requestSerializer = [AFJSONRequestSerializer serializer];
         _manager.responseSerializer = [AFJSONResponseSerializer serializer];
+        _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/plain", nil];
     }
     
     return _manager;
