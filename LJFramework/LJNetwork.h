@@ -55,4 +55,6 @@ failure:(void(^)(NSError *error))errorComplete;
 
 @property (nonatomic, copy) NSString *message;
 
+@property (nonatomic, copy) NSDictionary *originData;
+
 @end

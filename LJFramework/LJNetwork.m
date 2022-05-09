@@ -116,6 +116,7 @@ extraHeaders:(NSDictionary *)extraHeaders
         }else {
             NSError *error = [NSError errorWithDomain:task.currentRequest.URL.absoluteString code:code userInfo:nil];
             error.message = responseObject[self.messageKey];
+            error.originData = responseObject;
             
             if (errorComplete)
                 errorComplete(error);
@@ -181,6 +182,7 @@ constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         }else {
             NSError *error = [NSError errorWithDomain:task.currentRequest.URL.absoluteString code:code userInfo:nil];
             error.message = responseObject[self.messageKey];
+            error.originData = responseObject;
             
             if (errorComplete)
                 errorComplete(error);
@@ -300,6 +302,7 @@ constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
 @implementation NSError (LJNetwork)
 
 @dynamic message;
+@dynamic originData;
 
 - (void)setMessage:(NSString *)message {
     objc_setAssociatedObject(self,  @selector(message), message, OBJC_ASSOCIATION_COPY_NONATOMIC);
@@ -307,6 +310,14 @@ constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
 
 - (NSString *)message {
     return objc_getAssociatedObject(self, @selector(message));
+}
+
+- (void)setOriginData:(NSDictionary *)originData {
+    objc_setAssociatedObject(self,  @selector(originData), originData, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+- (NSDictionary *)originData {
+    return objc_getAssociatedObject(self, @selector(originData));
 }
 
 @end
