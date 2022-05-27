@@ -309,8 +309,8 @@
 				E104F4032747374800BC6B7A /* LJXIBFromSheetViewController.m */,
 				E104F4012747374800BC6B7A /* LJBaseFromSheetViewController.h */,
 				E104F3FD2747374800BC6B7A /* LJBaseFromSheetViewController.m */,
-				E104F3FC2747374800BC6B7A /* LJXIBFromCenterViewController.m */,
 				E104F4022747374800BC6B7A /* LJXIBFromCenterViewController.h */,
+				E104F3FC2747374800BC6B7A /* LJXIBFromCenterViewController.m */,
 				E104F3FF2747374800BC6B7A /* LJWebViewController.h */,
 				E104F4052747374800BC6B7A /* LJWebViewController.m */,
 			);
